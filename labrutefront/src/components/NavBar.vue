@@ -65,33 +65,27 @@
       <div class="navbar-menu ml-auto">
         <button
           class="loginbtn"
-          v-if="!connectedUser"
+          v-if="!store.user"
           @click="isRegisterOpened = !isRegisterOpened"
         >
           S'inscrire
         </button>
         <button
           class="loginbtn"
-          v-if="!connectedUser"
+          v-if="!store.user"
           @click="isModalOpened = !isModalOpened"
         >
           Se connecter
         </button>
-        <div v-if="connectedUser">Hello {{ connectedUser }}</div>
-        <button v-if="connectedUser" @click="logout">Se déconnecter</button>
+        <div v-if="store.user?.username">Hello {{ store.user?.username }}</div>
+        <button v-if="store.user" @click="logout">Se déconnecter</button>
       </div>
     </nav>
   </div>
 </template>
 <script>
-import axios from "axios";
-
-const instance = axios.create({
-  baseURL: "/api",
-  headers: {
-    "Content-type": "application/json",
-  },
-});
+import { store } from "../store";
+import Http from "../services/http.service";
 export default {
   name: "NavBar",
   props: {
@@ -108,36 +102,37 @@ export default {
       usernamelog: "",
       connectedUser: "",
       errorsignup: "",
+      store,
     };
   },
   methods: {
     register() {
-      instance
-        .post("/user/create", {
-          username: this.usernamereg,
-          password: this.passwordreg,
-        })
-        .then((e) => {
-          if (typeof e.data === "string") this.errorsignup = e.data;
-          if (typeof e.data === "object") {
-            this.errorsignup = null;
-            this.isRegisterOpened = !this.isRegisterOpened;
-          }
-        });
+      Http.post("/user/create", {
+        username: this.usernamereg,
+        password: this.passwordreg,
+      }).then((e) => {
+        if (typeof e.data === "string") this.errorsignup = e.data;
+        if (typeof e.data === "object") {
+          this.errorsignup = null;
+          this.isRegisterOpened = !this.isRegisterOpened;
+        }
+      });
     },
     login() {
-      instance
-        .post("/user/login", {
-          username: this.usernamelog,
-          password: this.passwordlog,
-        })
-        .then((e) => {
-          this.connectedUser = e.data.username;
-          this.isModalOpened = !this.isModalOpened;
-        });
+      Http.post("/user/login", {
+        username: this.usernamelog,
+        password: this.passwordlog,
+      }).then((e) => {
+        this.store.user = e.data.username;
+        this.isModalOpened = !this.isModalOpened;
+        Http.defaults.headers.common["Authorization"] = e.data.token;
+        localStorage.setItem("token", e.data.token);
+      });
     },
     logout() {
-      this.connectedUser = "";
+      this.store.user = null;
+      Http.defaults.headers.common["Authorization"] = undefined;
+      localStorage.removeItem("token");
     },
   },
 };
