@@ -21,6 +21,8 @@ export default class Character {
     private weaponEquiped?:IWeapon;
     public hp!: number;
     constructor(public character: ICharacter) {
+        this.character.weapons = this.character.weapons || []
+        this.character.pets = this.character.pets || []
         this.hp = Character.BASE_HP + (this.character.vitality * 2)
     }
 

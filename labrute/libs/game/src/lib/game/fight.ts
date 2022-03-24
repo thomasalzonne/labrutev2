@@ -23,6 +23,7 @@ export default class Fight{
     };
 
     generateTurn() {
+        console.log(this.p1, this.p2)
         const fastMan = this.p1.character.speed > this.p2.character.speed ? this.p1 : this.p2;
         const slowMan = this.p1.character.speed > this.p2.character.speed ? this.p2 : this.p1;
         const attacks = [];

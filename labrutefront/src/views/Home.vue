@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form v-if="store.user" class="form-material">
+    <form v-if="user" class="form-material">
       <div class="form-field">
         <input
           v-model="characterName"
@@ -21,7 +21,7 @@
       <div v-for="character in mycharacters" v-bind:key="character.id">
         <div class="card light-shadow-2 white">
           <div class="card-image">
-            <img src="./assets/gameassets/Knight/Idle/idle1.png" alt="logo" />
+            <img src="../assets/gameassets/Knight/Idle/idle1.png" alt="logo" />
           </div>
 
           <div class="card-header">{{ character.name }}</div>
@@ -33,15 +33,18 @@
             voluptas commodi? Velit?
           </div>
 
-          <div class="card-footer">Card Footer</div>
+          <div class="card-footer">
+            <router-link :to="{ name: 'Arene', params: { id: character.id } }"
+              >Go to Arene</router-link
+            >
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script>
-import { store } from "./store";
-import Http from "./services/http.service";
+import Http from "../services/http.service";
 
 export default {
   data() {
@@ -52,10 +55,13 @@ export default {
     );
     return {
       characterName: "",
-      store,
       mycharacters: [],
-      store,
     };
+  },
+  computed: {
+    user() {
+      return this.$store.user;
+    },
   },
   methods: {
     getFight() {
@@ -64,7 +70,7 @@ export default {
     generateCharacter() {
       Http.post("/character/generate", {
         name: this.characterName,
-        user: this.store.user,
+        user: this.$store.user,
       }).then(
         Http.get("/characters").then((res) => {
           this.mycharacters = [];
@@ -74,8 +80,10 @@ export default {
         })
       );
     },
-    getUser() {
-      console.log("hey");
+    getUser(charid) {
+      Http.get(`/character/${charid}`).then((res) => {
+        this.$store.chartofight = res.data;
+      });
     },
   },
 };

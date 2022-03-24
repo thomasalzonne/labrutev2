@@ -23,12 +23,6 @@ app.use(usersRouter);
 // const weapon : IWeapon = {name: 'Infinity Edge', agility: 3, speed: -3, strength: 3};
 // const botrk : IWeapon = {name: 'Blade of the ruined King', agility:1, speed:0, strength: 2};
 
-app.get('/api/fight', isLoggedIn, (req, res) => {
-  // const fight = new Fight(stallos, n_n);
-  // const play = fight.play();
-  // res.send(play);
-});
-
 const port = process.env.port || 3333;
 const server = app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}/api`);

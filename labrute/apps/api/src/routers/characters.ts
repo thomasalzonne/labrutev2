@@ -1,5 +1,6 @@
-import { Router } from 'express';
-import Character from 'libs/game/src/lib/game/character';
+import { query, Router } from 'express';
+import Fight from 'libs/game/src/lib/game/fight';
+import Character, { ICharacter } from '../../../../libs/game/src/lib/game/character';
 import db from '../db';
 import isLoggedIn, { UserRequest } from '../middlewares/isLoggedIn';
 
@@ -49,6 +50,32 @@ router.get('/api/characters', isLoggedIn, async (req: UserRequest, res) => {
     );
   }
   res.send(array);
+});
+
+router.get(`/api/character/:id`, isLoggedIn, async (req: UserRequest, res) => {
+  const character = await db('characters').where({
+    id: req.params.id,
+  }).first();
+  res.send(character);
+});
+
+router.get('/api/characters/tofight', isLoggedIn, async (req: UserRequest, res) => {
+  const charid = await db('users_characters').join('characters', 'characters.id', 'users_characters.character_id').whereNot({
+    user_id: req.user.id,
+  })
+  res.send(charid);
+})
+
+router.get(`/api/fight/:myid/:tofightcharid`, isLoggedIn, async (req, res) => {
+  const char1 : ICharacter = await db('characters').where( {id : req.params.myid} ).first()
+  const char2 : ICharacter = await db('characters').where( { id: req.params.tofightcharid } ).first()
+  
+  const p1 = new Character(char1);
+  const p2 = new Character(char2);
+
+  const fight = new Fight(p1, p2);
+  const play = fight.play();
+  res.send(play)
 });
 
 export default router;
