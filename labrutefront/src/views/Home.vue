@@ -37,6 +37,9 @@
             <router-link :to="{ name: 'Arene', params: { id: character.id } }"
               >Go to Arene</router-link
             >
+            <router-link :to="{ name: 'Brute', params: { id: character.id } }"
+              >Voir ma brute</router-link
+            >
           </div>
         </div>
       </div>
