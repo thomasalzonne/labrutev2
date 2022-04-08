@@ -28,6 +28,7 @@
 </template>
 <script>
 import Http from "../services/http.service";
+import Game from "../game";
 
 export default {
   name: "Arene",
@@ -39,6 +40,9 @@ export default {
       opponents: [],
       fight: null,
     };
+  },
+  mounted() {
+    new Game(this.$el);
   },
   methods: {
     getFight(characterid) {
