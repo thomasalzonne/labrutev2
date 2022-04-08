@@ -1,6 +1,7 @@
 import Home from "../views/Home.vue";
 import Arene from "../views/Arene.vue";
 import Brute from "../views/Brute.vue";
+import Fight from "../views/Fight.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
@@ -23,6 +24,11 @@ const routes = [
     path: "/brute/:id",
     name: "Brute",
     component: Brute,
+  },
+  {
+    path: "/arene/:id/:idtofight",
+    name: "Fight",
+    component: Fight,
   },
 ];
 

@@ -1,0 +1,894 @@
+{"frames": {
+
+"HeroKnight.png":
+{
+	"frame": {"x":1,"y":1,"w":958,"h":483},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":12,"w":958,"h":483},
+	"sourceSize": {"w":1000,"h":495}
+},
+"HeroKnight_Attack1_0.png":
+{
+	"frame": {"x":218,"y":1154,"w":43,"h":42},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":12,"w":43,"h":42},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack1_1.png":
+{
+	"frame": {"x":232,"y":1199,"w":34,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":7,"w":34,"h":47},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack1_2.png":
+{
+	"frame": {"x":1,"y":1147,"w":77,"h":52},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":2,"w":77,"h":52},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack1_3.png":
+{
+	"frame": {"x":122,"y":1146,"w":51,"h":41},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":13,"w":51,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack1_4.png":
+{
+	"frame": {"x":190,"y":1199,"w":40,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":13,"w":40,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack1_5.png":
+{
+	"frame": {"x":403,"y":1161,"w":30,"h":41},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":13,"w":30,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack2_0.png":
+{
+	"frame": {"x":162,"y":1390,"w":29,"h":41},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":13,"w":29,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack2_1.png":
+{
+	"frame": {"x":1,"y":1102,"w":88,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":11,"w":88,"h":43},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack2_2.png":
+{
+	"frame": {"x":91,"y":1102,"w":72,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":12,"w":72,"h":42},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack2_3.png":
+{
+	"frame": {"x":83,"y":1311,"w":53,"h":42},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":12,"w":53,"h":42},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack2_4.png":
+{
+	"frame": {"x":54,"y":1372,"w":53,"h":36},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":18,"w":53,"h":36},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack2_5.png":
+{
+	"frame": {"x":193,"y":1242,"w":49,"h":36},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":18,"w":49,"h":36},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack3_0.png":
+{
+	"frame": {"x":80,"y":1154,"w":45,"h":40},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":14,"w":45,"h":40},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack3_1.png":
+{
+	"frame": {"x":162,"y":1341,"w":31,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":7,"w":31,"h":47},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack3_2.png":
+{
+	"frame": {"x":1,"y":1201,"w":67,"h":52},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":2,"w":67,"h":52},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack3_3.png":
+{
+	"frame": {"x":1,"y":1255,"w":68,"h":48},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":6,"w":68,"h":48},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack3_4.png":
+{
+	"frame": {"x":165,"y":1102,"w":68,"h":36},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":18,"w":68,"h":36},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack3_5.png":
+{
+	"frame": {"x":235,"y":1102,"w":58,"h":36},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":18,"w":58,"h":36},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack3_6.png":
+{
+	"frame": {"x":254,"y":1385,"w":38,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":17,"w":38,"h":37},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Attack3_7.png":
+{
+	"frame": {"x":231,"y":1248,"w":43,"h":41},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":13,"w":43,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Block Idle_0.png":
+{
+	"frame": {"x":403,"y":1193,"w":44,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":14,"w":44,"h":40},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Block Idle_1.png":
+{
+	"frame": {"x":238,"y":1293,"w":44,"h":40},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":14,"w":44,"h":40},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Block Idle_2.png":
+{
+	"frame": {"x":403,"y":1235,"w":44,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":13,"w":44,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Block Idle_3.png":
+{
+	"frame": {"x":238,"y":1339,"w":44,"h":41},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":13,"w":44,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Block Idle_4.png":
+{
+	"frame": {"x":294,"y":1384,"w":43,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":13,"w":43,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Block Idle_5.png":
+{
+	"frame": {"x":54,"y":1427,"w":43,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":13,"w":43,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Block Idle_6.png":
+{
+	"frame": {"x":191,"y":1463,"w":43,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":14,"w":43,"h":40},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Block Idle_7.png":
+{
+	"frame": {"x":236,"y":1463,"w":43,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":14,"w":43,"h":40},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Block_0.png":
+{
+	"frame": {"x":373,"y":1462,"w":43,"h":38},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":16,"w":43,"h":38},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Block_1.png":
+{
+	"frame": {"x":165,"y":1154,"w":51,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":11,"w":51,"h":43},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Block_2.png":
+{
+	"frame": {"x":1,"y":1443,"w":55,"h":48},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":6,"w":55,"h":48},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Block_3.png":
+{
+	"frame": {"x":1,"y":1325,"w":57,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":4,"w":57,"h":50},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Block_4.png":
+{
+	"frame": {"x":1,"y":1384,"w":57,"h":51},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":3,"w":57,"h":51},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_BlockNoEffect.png":
+{
+	"frame": {"x":1,"y":1059,"w":443,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":13,"w":443,"h":41},
+	"sourceSize": {"w":500,"h":55}
+},
+"HeroKnight_BlockNoEffect_0.png":
+{
+	"frame": {"x":333,"y":1428,"w":43,"h":38},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":16,"w":43,"h":38},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_BlockNoEffect_1.png":
+{
+	"frame": {"x":373,"y":1419,"w":45,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":13,"w":45,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_BlockNoEffect_2.png":
+{
+	"frame": {"x":322,"y":1331,"w":46,"h":40},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":14,"w":46,"h":40},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_BlockNoEffect_3.png":
+{
+	"frame": {"x":145,"y":1421,"w":45,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":14,"w":45,"h":40},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_BlockNoEffect_4.png":
+{
+	"frame": {"x":281,"y":1466,"w":43,"h":40},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":14,"w":43,"h":40},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Death_0.png":
+{
+	"frame": {"x":192,"y":1421,"w":45,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":14,"w":45,"h":40},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Death_1.png":
+{
+	"frame": {"x":446,"y":1149,"w":49,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":13,"w":49,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Death_2.png":
+{
+	"frame": {"x":150,"y":1242,"w":48,"h":41},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":13,"w":48,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Death_3.png":
+{
+	"frame": {"x":354,"y":1102,"w":55,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":13,"w":55,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Death_4.png":
+{
+	"frame": {"x":295,"y":1102,"w":57,"h":36},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":18,"w":57,"h":36},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Death_5.png":
+{
+	"frame": {"x":411,"y":1102,"w":57,"h":33},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":21,"w":57,"h":33},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Death_6.png":
+{
+	"frame": {"x":51,"y":1255,"w":58,"h":30},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":24,"w":58,"h":30},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Death_7.png":
+{
+	"frame": {"x":475,"y":961,"w":72,"h":15},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":39,"w":72,"h":15},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Death_8.png":
+{
+	"frame": {"x":165,"y":1140,"w":72,"h":12},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":42,"w":72,"h":12},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Death_9.png":
+{
+	"frame": {"x":486,"y":1,"w":72,"h":8},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":46,"w":72,"h":8},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_DeathNoBlood.png":
+{
+	"frame": {"x":1,"y":961,"w":472,"h":96},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":13,"w":472,"h":96},
+	"sourceSize": {"w":500,"h":110}
+},
+"HeroKnight_DeathNoBlood_0.png":
+{
+	"frame": {"x":192,"y":1421,"w":45,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":14,"w":45,"h":40},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_DeathNoBlood_1.png":
+{
+	"frame": {"x":354,"y":1145,"w":47,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":15,"w":47,"h":39},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_DeathNoBlood_2.png":
+{
+	"frame": {"x":51,"y":1470,"w":45,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":15,"w":45,"h":39},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_DeathNoBlood_3.png":
+{
+	"frame": {"x":140,"y":1199,"w":48,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":13,"w":48,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_DeathNoBlood_4.png":
+{
+	"frame": {"x":116,"y":1254,"w":53,"h":32},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":22,"w":53,"h":32},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_DeathNoBlood_5.png":
+{
+	"frame": {"x":83,"y":1255,"w":54,"h":31},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":23,"w":54,"h":31},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_DeathNoBlood_6.png":
+{
+	"frame": {"x":53,"y":1315,"w":55,"h":28},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":26,"w":55,"h":28},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_DeathNoBlood_7.png":
+{
+	"frame": {"x":475,"y":961,"w":72,"h":15},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":39,"w":72,"h":15},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_DeathNoBlood_8.png":
+{
+	"frame": {"x":165,"y":1140,"w":72,"h":12},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":42,"w":72,"h":12},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_DeathNoBlood_9.png":
+{
+	"frame": {"x":486,"y":1,"w":72,"h":8},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":46,"w":72,"h":8},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Fall_0.png":
+{
+	"frame": {"x":268,"y":1188,"w":47,"h":41},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":11,"w":47,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Fall_1.png":
+{
+	"frame": {"x":311,"y":1184,"w":47,"h":41},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":11,"w":47,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Fall_2.png":
+{
+	"frame": {"x":274,"y":1237,"w":47,"h":41},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":11,"w":47,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Fall_3.png":
+{
+	"frame": {"x":317,"y":1233,"w":47,"h":41},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":11,"w":47,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Grab Ledge_0.png":
+{
+	"frame": {"x":280,"y":1286,"w":47,"h":36},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":7,"w":47,"h":36},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Grab Ledge_1.png":
+{
+	"frame": {"x":239,"y":1424,"w":45,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":8,"w":45,"h":37},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Grab Ledge_2.png":
+{
+	"frame": {"x":262,"y":1140,"w":43,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":8,"w":43,"h":46},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Grab Ledge_3.png":
+{
+	"frame": {"x":205,"y":1385,"w":34,"h":47},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":8,"w":34,"h":47},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Grab Ledge_4.png":
+{
+	"frame": {"x":339,"y":1379,"w":32,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":8,"w":32,"h":47},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Hurt_0.png":
+{
+	"frame": {"x":192,"y":1421,"w":45,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":14,"w":45,"h":40},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Hurt_1.png":
+{
+	"frame": {"x":281,"y":1335,"w":47,"h":39},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":15,"w":47,"h":39},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Hurt_2.png":
+{
+	"frame": {"x":364,"y":1328,"w":46,"h":39},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":15,"w":46,"h":39},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Idle_0.png":
+{
+	"frame": {"x":449,"y":1192,"w":46,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":12,"w":46,"h":42},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Idle_1.png":
+{
+	"frame": {"x":449,"y":1236,"w":46,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":12,"w":46,"h":42},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Idle_2.png":
+{
+	"frame": {"x":360,"y":1230,"w":47,"h":41},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":13,"w":47,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Idle_3.png":
+{
+	"frame": {"x":318,"y":1282,"w":47,"h":41},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":13,"w":47,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Idle_4.png":
+{
+	"frame": {"x":354,"y":1186,"w":47,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":12,"w":47,"h":42},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Idle_5.png":
+{
+	"frame": {"x":449,"y":1280,"w":46,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":12,"w":46,"h":42},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Idle_6.png":
+{
+	"frame": {"x":449,"y":1368,"w":46,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":13,"w":46,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Idle_7.png":
+{
+	"frame": {"x":195,"y":1337,"w":46,"h":41},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":13,"w":46,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Jump_0.png":
+{
+	"frame": {"x":145,"y":1463,"w":44,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":14,"w":44,"h":40},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Jump_1.png":
+{
+	"frame": {"x":98,"y":1470,"w":45,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":12,"w":45,"h":39},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Jump_2.png":
+{
+	"frame": {"x":286,"y":1427,"w":45,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":12,"w":45,"h":37},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Roll_0.png":
+{
+	"frame": {"x":323,"y":1473,"w":33,"h":35},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":19,"w":33,"h":35},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Roll_1.png":
+{
+	"frame": {"x":162,"y":1292,"w":47,"h":25},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":29,"w":47,"h":25},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Roll_2.png":
+{
+	"frame": {"x":418,"y":1470,"w":34,"h":24},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":30,"w":34,"h":24},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Roll_3.png":
+{
+	"frame": {"x":421,"y":1403,"w":26,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":31,"w":26,"h":23},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Roll_4.png":
+{
+	"frame": {"x":421,"y":1376,"w":26,"h":25},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":29,"w":26,"h":25},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Roll_5.png":
+{
+	"frame": {"x":463,"y":1441,"w":26,"h":25},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":29,"w":26,"h":25},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Roll_6.png":
+{
+	"frame": {"x":454,"y":1470,"w":24,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":26,"w":24,"h":28},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Roll_7.png":
+{
+	"frame": {"x":463,"y":1411,"w":27,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":26,"w":27,"h":28},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Roll_8.png":
+{
+	"frame": {"x":420,"y":1428,"w":41,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":14,"w":41,"h":40},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Run_0.png":
+{
+	"frame": {"x":99,"y":1427,"w":44,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":13,"w":44,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Run_1.png":
+{
+	"frame": {"x":449,"y":1324,"w":46,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":12,"w":46,"h":42},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Run_2.png":
+{
+	"frame": {"x":189,"y":1293,"w":47,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":12,"w":47,"h":42},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Run_3.png":
+{
+	"frame": {"x":446,"y":1059,"w":49,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":11,"w":49,"h":43},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Run_4.png":
+{
+	"frame": {"x":361,"y":1279,"w":47,"h":42},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":12,"w":47,"h":42},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Run_5.png":
+{
+	"frame": {"x":373,"y":1376,"w":46,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":13,"w":46,"h":41},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Run_6.png":
+{
+	"frame": {"x":405,"y":1278,"w":47,"h":42},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":12,"w":47,"h":42},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Run_7.png":
+{
+	"frame": {"x":405,"y":1327,"w":47,"h":42},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":12,"w":47,"h":42},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Run_8.png":
+{
+	"frame": {"x":446,"y":1104,"w":49,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":11,"w":49,"h":43},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Run_9.png":
+{
+	"frame": {"x":307,"y":1140,"w":45,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":12,"w":45,"h":42},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Slide_0.png":
+{
+	"frame": {"x":105,"y":1201,"w":33,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":4,"w":33,"h":51},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Slide_1.png":
+{
+	"frame": {"x":127,"y":1364,"w":33,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":4,"w":33,"h":51},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Slide_2.png":
+{
+	"frame": {"x":70,"y":1201,"w":33,"h":52},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":3,"w":33,"h":52},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Slide_3.png":
+{
+	"frame": {"x":92,"y":1366,"w":33,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":2,"w":33,"h":53},
+	"sourceSize": {"w":100,"h":55}
+},
+"HeroKnight_Slide_4.png":
+{
+	"frame": {"x":127,"y":1309,"w":33,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":2,"w":33,"h":53},
+	"sourceSize": {"w":100,"h":55}
+}},
+"animations": {
+	"HeroKnight_Attack1": ["HeroKnight_Attack1_0.png","HeroKnight_Attack1_1.png","HeroKnight_Attack1_2.png","HeroKnight_Attack1_3.png","HeroKnight_Attack1_4.png","HeroKnight_Attack1_5.png"],
+	"HeroKnight_Attack2": ["HeroKnight_Attack2_0.png","HeroKnight_Attack2_1.png","HeroKnight_Attack2_2.png","HeroKnight_Attack2_3.png","HeroKnight_Attack2_4.png","HeroKnight_Attack2_5.png"],
+	"HeroKnight_Attack3": ["HeroKnight_Attack3_0.png","HeroKnight_Attack3_1.png","HeroKnight_Attack3_2.png","HeroKnight_Attack3_3.png","HeroKnight_Attack3_4.png","HeroKnight_Attack3_5.png","HeroKnight_Attack3_6.png","HeroKnight_Attack3_7.png"],
+	"HeroKnight_Block": ["HeroKnight_Block_0.png","HeroKnight_Block_1.png","HeroKnight_Block_2.png","HeroKnight_Block_3.png","HeroKnight_Block_4.png"],
+	"HeroKnight_Block Idle": ["HeroKnight_Block Idle_0.png","HeroKnight_Block Idle_1.png","HeroKnight_Block Idle_2.png","HeroKnight_Block Idle_3.png","HeroKnight_Block Idle_4.png","HeroKnight_Block Idle_5.png","HeroKnight_Block Idle_6.png","HeroKnight_Block Idle_7.png"],
+	"HeroKnight_BlockNoEffect": ["HeroKnight_BlockNoEffect_0.png","HeroKnight_BlockNoEffect_1.png","HeroKnight_BlockNoEffect_2.png","HeroKnight_BlockNoEffect_3.png","HeroKnight_BlockNoEffect_4.png"],
+	"HeroKnight_Death": ["HeroKnight_Death_0.png","HeroKnight_Death_1.png","HeroKnight_Death_2.png","HeroKnight_Death_3.png","HeroKnight_Death_4.png","HeroKnight_Death_5.png","HeroKnight_Death_6.png","HeroKnight_Death_7.png","HeroKnight_Death_8.png","HeroKnight_Death_9.png"],
+	"HeroKnight_DeathNoBlood": ["HeroKnight_DeathNoBlood_0.png","HeroKnight_DeathNoBlood_1.png","HeroKnight_DeathNoBlood_2.png","HeroKnight_DeathNoBlood_3.png","HeroKnight_DeathNoBlood_4.png","HeroKnight_DeathNoBlood_5.png","HeroKnight_DeathNoBlood_6.png","HeroKnight_DeathNoBlood_7.png","HeroKnight_DeathNoBlood_8.png","HeroKnight_DeathNoBlood_9.png"],
+	"HeroKnight_Fall": ["HeroKnight_Fall_0.png","HeroKnight_Fall_1.png","HeroKnight_Fall_2.png","HeroKnight_Fall_3.png"],
+	"HeroKnight_Grab Ledge": ["HeroKnight_Grab Ledge_0.png","HeroKnight_Grab Ledge_1.png","HeroKnight_Grab Ledge_2.png","HeroKnight_Grab Ledge_3.png","HeroKnight_Grab Ledge_4.png"],
+	"HeroKnight_Hurt": ["HeroKnight_Hurt_0.png","HeroKnight_Hurt_1.png","HeroKnight_Hurt_2.png"],
+	"HeroKnight_Idle": ["HeroKnight_Idle_0.png","HeroKnight_Idle_1.png","HeroKnight_Idle_2.png","HeroKnight_Idle_3.png","HeroKnight_Idle_4.png","HeroKnight_Idle_5.png","HeroKnight_Idle_6.png","HeroKnight_Idle_7.png"],
+	"HeroKnight_Jump": ["HeroKnight_Jump_0.png","HeroKnight_Jump_1.png","HeroKnight_Jump_2.png"],
+	"HeroKnight_Roll": ["HeroKnight_Roll_0.png","HeroKnight_Roll_1.png","HeroKnight_Roll_2.png","HeroKnight_Roll_3.png","HeroKnight_Roll_4.png","HeroKnight_Roll_5.png","HeroKnight_Roll_6.png","HeroKnight_Roll_7.png","HeroKnight_Roll_8.png"],
+	"HeroKnight_Run": ["HeroKnight_Run_0.png","HeroKnight_Run_1.png","HeroKnight_Run_2.png","HeroKnight_Run_3.png","HeroKnight_Run_4.png","HeroKnight_Run_5.png","HeroKnight_Run_6.png","HeroKnight_Run_7.png","HeroKnight_Run_8.png","HeroKnight_Run_9.png"],
+	"HeroKnight_Slide": ["HeroKnight_Slide_0.png","HeroKnight_Slide_1.png","HeroKnight_Slide_2.png","HeroKnight_Slide_3.png","HeroKnight_Slide_4.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "hero.png",
+	"format": "RGBA8888",
+	"size": {"w":496,"h":1510},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:293eaf6aafa0637b896d1240eec5ea19:18f8434e944f4e232cda7de2140ea0ad:eec64b416d3f54b5cb5181ef71d8f236$"
+}
+}

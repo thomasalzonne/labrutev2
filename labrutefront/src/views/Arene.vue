@@ -16,19 +16,20 @@
         </div>
 
         <div class="card-footer">
-          <button @click="getFight(character.id)">Fight</button>
+          <router-link
+            :to="{
+              name: 'Fight',
+              params: { id: this.$route.params.id, idtofight: character.id },
+            }"
+            >Go Fight</router-link
+          >
         </div>
       </div>
-    </div>
-    <div class="fight">
-      <h1>LE FIGHT OMG</h1>
-      <div>{{ fight }}</div>
     </div>
   </div>
 </template>
 <script>
 import Http from "../services/http.service";
-import Game from "../game";
 
 export default {
   name: "Arene",
@@ -38,18 +39,7 @@ export default {
     });
     return {
       opponents: [],
-      fight: null,
     };
-  },
-  mounted() {
-    new Game(this.$el);
-  },
-  methods: {
-    getFight(characterid) {
-      Http.get(`/fight/${this.$route.params.id}/${characterid}`).then(
-        (e) => (this.fight = e.data.timeline)
-      );
-    },
   },
 };
 </script>
