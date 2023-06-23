@@ -6,8 +6,8 @@ const db = knex({
     host: '127.0.0.1',
     port: 3306,
     user: 'root',
-    password: 'toor',
-    database: 'labrute',
+    password: 'azerty31',
+    database: 'db',
   },
 });
 export default db;

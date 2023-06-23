@@ -30,7 +30,6 @@ router.post(
       vitality: character.character.vitality,
       defence: character.character.defence,
     });
-
     await db('users_characters').insert({
       user_id: req.user.id,
       character_id: insertedCharacter[0],
@@ -48,7 +47,7 @@ router.get('/api/characters', isLoggedIn, async (req: UserRequest, res) => {
     array.push(
       await db('characters').where({
         id: characters[index].character_id,
-      })
+      }).first()
     );
   }
   res.send(array);

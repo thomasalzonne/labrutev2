@@ -1,5 +1,7 @@
 <template>
-  <div class="fight"></div>
+  <div class="fight">
+  <div style="position:absolute; z-index: 1">alo</div>
+  </div>
 </template>
 <script>
 import Http from "../services/http.service";

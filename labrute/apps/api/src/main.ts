@@ -11,7 +11,13 @@ import usersRouter from './routers/users';
 import * as express from 'express';
 import isLoggedIn from './middlewares/isLoggedIn';
 
+
 const app = express();
+var http = require('http').createServer(app);
+var io = require('socket.io')(http, {
+  path: '/api/socket/'
+});
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -24,7 +30,14 @@ app.use(usersRouter);
 // const botrk : IWeapon = {name: 'Blade of the ruined King', agility:1, speed:0, strength: 2};
 
 const port = process.env.port || 3333;
-const server = app.listen(port, () => {
+const server = http.listen(port, () => {
   console.log(`Listening at http://localhost:${port}/api`);
+});
+io.on('connection', (socket) => { /* socket object may be used to send specific messages to the new connected client */
+  console.log('new client connected');
+  socket.emit('connection', null);
+  socket.on('send-message', message => {
+    io.emit('message', message)
+  })
 });
 server.on('error', console.error);

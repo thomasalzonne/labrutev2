@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form v-if="user" class="form-material">
+    <form class="form-material">
       <div class="form-field">
         <input
           v-model="characterName"
